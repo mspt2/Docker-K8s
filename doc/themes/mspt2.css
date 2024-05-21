@@ -1,0 +1,80 @@
+/**
+ * @theme mspt2
+*/
+
+/*
+
+Base theme : gaia
+사용폰트 : 나눔스퀘어 네오
+폰트색상 : #27343a
+
+*/
+
+
+@import 'gaia';
+
+:root {
+
+    /* font-family: 'GmarketSansTTFMedium', 'G마켓 산스 TTF Medium'; */
+    font-family: 'NanumSquareNeo-bRg', '나눔스퀘어 네오 Regular';
+    font-size: 18px;
+    color: #27343a;
+    background-image: url("./themes/hero-background.svg");
+    background-size: cover;
+}
+
+header {
+    /* font-family: 'GmarketSansTTFMedium', 'G마켓 산스 TTF Medium'; */
+    font-family: 'NanumSquareNeo-dEb', '나눔스퀘어 네오 ExtraBold';
+    font-size: 20px;
+    color: #27343a;
+}
+
+
+footer {
+    /* font-family: 'GmarketSansTTFMedium', 'G마켓 산스 TTF Medium'; */
+    font-family: 'NanumSquareNeo-cBd', '나눔스퀘어 네오 Bold';
+    font-size: 16px;
+    color: #27343a;
+}
+
+
+th, td {
+    border: none !important;
+}
+
+
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+a:hover, a:active {
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+blockquote {
+    border-left: 7px solid #ccc;
+    margin: 0.5em 5px;
+    padding: 0.5em 5px 0.1em 10px;
+    font-size: 16px;
+    /* quotes: "\201C""\201D""\2018""\2019"; */
+}
+
+blockquote::before, blockquote::after {
+    content: none;
+}
+
+
+code {
+    padding-left: 5px;
+    padding-right: 5px;
+}
