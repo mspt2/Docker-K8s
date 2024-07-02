@@ -562,18 +562,16 @@ Processing triggers for man-db (2.9.1-1) ...
 이후 진행되는 실습과정들에 사용되는 파일들을 다운로드 하겠습니다.
 
 ```bash
-ubuntu@ip-172-31-23-60:~$ git clone https://github.com/JungSangup/mspt3.git
-Cloning into 'mspt3'...
-remote: Enumerating objects: 3210, done.
-remote: Counting objects: 100% (857/857), done.
-remote: Compressing objects: 100% (481/481), done.
-remote: Total 3210 (delta 406), reused 775 (delta 374), pack-reused 2353
-Receiving objects: 100% (3210/3210), 328.05 MiB | 51.34 MiB/s, done.
-Resolving deltas: 100% (1786/1786), done.
+ubuntu@ip-172-31-23-60:~$ git clone https://github.com/mspt2/Docker-K8s.git
+Cloning into 'Docker-K8s'...
+remote: Enumerating objects: 419, done.
+remote: Total 419 (delta 0), reused 0 (delta 0), pack-reused 419
+Receiving objects: 100% (419/419), 105.58 MiB | 15.71 MiB/s, done.
+Resolving deltas: 100% (42/42), done.
 ```
 
 > 💻 명령어
 >```bash
->git clone https://github.com/JungSangup/mspt3.git
+>git clone https://github.com/mspt2/Docker-K8s.git
 >```
 - **hands_on_files** 디렉토리 아래에 실습에 필요한 파일들이 있습니다.
