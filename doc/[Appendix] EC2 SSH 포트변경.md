@@ -129,4 +129,4 @@ ubuntu@ip-172-31-29-188:~$ sudo service sshd restart
 다음은 기본 과정과 동일합니다.  
 단, 접속 시 포트만 기본포트인 22가 아닌 23을 사용하면 됩니다.
 
-[본 교재](https://github.com/JungSangup/mspt3/blob/main/doc/%5BHands-on%5D%2001_Environment_Setup-Docker.md#2-vm-instance-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0)로 돌아가서 다음 과정을 진행해주세요.
+[본 교재](https://github.com/mspt2/Docker-K8s/blob/main/doc/%5BHands-on%5D%2001_Environment_Setup-Docker.md#2-vm-instance-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0)로 돌아가서 다음 과정을 진행해주세요.

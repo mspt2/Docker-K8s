@@ -510,7 +510,7 @@ ubuntu@ip-172-31-28-216:~$
 
 설치는 간단합니다. 명령어 하나면 끝. （°o°；）
 ```bash
-ubuntu@ip-172-31-23-60:~$ helm install my-todo-app https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+ubuntu@ip-172-31-23-60:~$ helm install my-todo-app https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 NAME: my-todo-app
 LAST DEPLOYED: Thu Feb 16 08:19:57 2023
 NAMESPACE: default
@@ -524,7 +524,7 @@ NOTES:
 
 > 💻 명령어
 >```bash
->helm install my-todo-app https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+>helm install my-todo-app https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 >```
 
 <br>
@@ -574,7 +574,7 @@ ubuntu@ip-172-31-23-60:~$ helm install my-todo-app \
 >     --set imageCredentials.create=true \
 >     --set imageCredentials.username=rogallo \
 >     --set imageCredentials.password=XXXXXX \
->     https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+>     https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 NAME: my-todo-app
 LAST DEPLOYED: Thu Feb 16 08:31:07 2023
 NAMESPACE: default
@@ -593,7 +593,7 @@ NOTES:
 >     --set imageCredentials.create=true \
 >     --set imageCredentials.username=[USER-NAME] \
 >     --set imageCredentials.password=[PASSWORD] \
->     https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+>     https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 >```
 > [USER-NAME]과 [PASSWORD]는 여러분의 정보로 채워넣어 주세요.
 
@@ -719,7 +719,7 @@ my-todo-app   nginx   todo-app.info   172.31.23.60   80      5m23s
 이제 Helm 에서 **업그레이드**를 해볼게요.  
 여러가지 업그레이드가 있겠지만, 간단히 이미지의 Tag를 변경하는 경우만 해보겠습니다.
 ```bash
-ubuntu@ip-172-31-23-60:~$ helm upgrade --set image.tag=2.0.0 my-todo-app https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+ubuntu@ip-172-31-23-60:~$ helm upgrade --set image.tag=2.0.0 my-todo-app https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 Release "my-todo-app" has been upgraded. Happy Helming!
 NAME: my-todo-app
 LAST DEPLOYED: Thu Feb 16 10:41:50 2023
@@ -734,7 +734,7 @@ NOTES:
 
 > 💻 명령어
 >```bash
->helm upgrade --set image.tag=2.0.0 my-todo-app https://github.com/JungSangup/mspt3/raw/main/hands_on_files/todo-app-1.0.0.tgz
+>helm upgrade --set image.tag=2.0.0 my-todo-app https://github.com/mspt2/Docker-K8s/raw/main/hands_on_files/todo-app-1.0.0.tgz
 >```
 > **image.tag**만 변경해서 새로운 버젼으로 업그레이드 합니다.
 
