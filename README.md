@@ -17,7 +17,7 @@
 
 
 ## 학습방법
-[Contents](https://github.com/JungSangup/mspt3/tree/main/doc#contents) 의 순서에 따라 **이론**과 **실습**을 진행합니다.  
+[Contents](https://github.com/mspt2/Docker-K8s/tree/main/doc#contents) 의 순서에 따라 **이론**과 **실습**을 진행합니다.  
 각 이론교재는 기본 내용을 설명하고 있고, 교재의 링크를 통해 보다 더 깊이있는 내용을 학습할 수 있습니다.  
 
 
